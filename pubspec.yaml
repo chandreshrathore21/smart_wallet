@@ -1,0 +1,30 @@
+name: smart_wallet
+description: "An offline-first smart wallet application built with Flutter and encrypted SQLite."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Local Encrypted SQL Database
+  sqflite_sqlcipher: ^3.1.0
+  path: ^1.9.0
+
+  # State Management & Helpers
+  provider: ^6.1.2
+  intl: ^0.19.0
+  fl_chart: ^0.68.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
